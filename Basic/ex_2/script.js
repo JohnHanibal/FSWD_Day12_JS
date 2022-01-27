@@ -1,8 +1,7 @@
-const ageCalculator = (birthYear, currentYear) => {
+const ageCalculator = (currentYear, birthYear) => {
  return currentYear - birthYear;
 };
 
-const currentDate = new Date ();
+var myAge = ageCalculator(2022, 1993);
 
-console.log(ageCalculator(1993, currentDate.getFullYear()));
-
+console.log(myAge);
