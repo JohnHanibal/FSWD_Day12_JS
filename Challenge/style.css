@@ -14,9 +14,10 @@ body{
 
 .scr1{
     position: absolute;
-    top: 25%;
-    left: 35%;
+    top: 26%;
+    left: 38%;
     padding: 20px;
     text-align: center;
-    font-size: x-small;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
 }
