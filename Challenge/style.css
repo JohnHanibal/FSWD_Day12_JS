@@ -1,0 +1,22 @@
+body{
+    margin:0;
+}
+
+.atm img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.atm{
+    position: relative;
+}
+
+.scr1{
+    position: absolute;
+    top: 25%;
+    left: 36%;
+    padding: 20px;
+    text-align: center;
+    font-size: x-small;
+}

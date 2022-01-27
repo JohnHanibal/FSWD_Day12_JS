@@ -7,4 +7,4 @@ function atm(amt){
     return (quotient+" notes of 100 Euro " +"\n"+ quotient2 + " notes of 50 Euro "  +"\n"+quotient3 +" notes of 20 Euro " +"\n"+quotient4 +" notes of 10 Euros ");
 }
 
-console.log(atm(280));
+document.write(atm(280));
