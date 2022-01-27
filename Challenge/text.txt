@@ -1,0 +1,16 @@
+we have 280 euros
+we want to know how many 100 euros how many 50 how many 20 and how many 10 there is inside
+280/100 result 2 rest 80
+rest /50 result 1 rest 30
+rest/20 result 1 rest 10
+rest/10 result 1
+
+amt - quotient = 80
+
+rest = (amt-quotient)/50
+
+quotient2 = (amt-100*quotient)/50
+
+quotient3 =(amt-100*quotient-50*quotient2)/20
+
+quotient4= (amt-100*quotient-50*quotient2-20*quotient3)/10
