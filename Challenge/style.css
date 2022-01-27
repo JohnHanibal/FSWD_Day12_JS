@@ -21,3 +21,48 @@ body{
     font-family: 'Arial Narrow Bold', sans-serif;
     font-size: xx-large;
 }
+
+
+@media screen and (min-width: 1025px) {
+    .scr1{
+    top: 22%;
+    left: 34%;
+    font-size: x-large;
+    }
+}
+
+
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+    .scr1{
+    top: 22%;
+    left: 34%;
+    font-size: large;
+    }
+}
+
+
+@media screen and (min-width: 626px) and (max-width: 800px) {
+    .scr1{
+    top: 22%;
+    left: 34%;
+    font-size: medium;
+    }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 625px) {
+    .scr1{
+    top: 22%;
+    left: 34%;
+    font-size: x-small;
+    }
+}
+
+
+@media screen and (min-width: 351px) and (max-width: 480px) {
+    .scr1{
+    top: 20%;
+    left: 32%;
+    font-size: xx-small;
+    }
+}
